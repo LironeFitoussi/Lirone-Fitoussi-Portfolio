@@ -23,7 +23,7 @@ div {
     padding: ;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
     margin: 1rem;
 }
 
@@ -35,7 +35,7 @@ h1, h2, p {
     height: 100%;
 }
 
- h1 {
+h1 {
     font-size: 2rem;
     line-height: 2.25rem;
 }
@@ -77,6 +77,7 @@ p {
     grid-template-rows: 1fr 1fr 2fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
+
 .top-r {
     display: flex;
     justify-content: space-between;
@@ -97,14 +98,29 @@ img {
     width: 100%;
     height: 100%;
 }
+.name, .location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff13;
+}
+.name, .locs > h3 {
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+
+.location {
+    flex-direction: column;
+}
+
+.loc {
+    display: flex;
+}
 
 .info {
     text-align: center;
     font-size: 24px;
     background-color: #ffffff13;
-}
-
-.info > h1 {
 }
 
 
