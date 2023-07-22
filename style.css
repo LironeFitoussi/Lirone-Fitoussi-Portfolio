@@ -19,8 +19,7 @@ header {
 
 div {
     border-radius: 1rem;
-    margin: 0.25rem;
-    padding: ;
+    margin: 0.4rem 0.2rem;
 }
 
 h1, h2, h3, p {
@@ -89,41 +88,54 @@ p {
     grid-column-end: 3;
 }
 
-img {
-    border-radius: 1.25rem;
-    height: 200px;
+.img {
     grid-row-start: 2;
     grid-row-end: 5;
     grid-column-end: 2;
+}
+
+img{
+    border-radius: 1.25rem;
     width: 100%;
     height: 100%;
 }
-.name, .location{
+.name {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff13;
+    background-color: #ffffff13; 
 }
-.name, .locs > h3 {
+
+.name, .loc> h3 {
     font-size: 0.6rem;
     font-weight: 700;
 }
 
 .location {
+    display: flex;
     flex-direction: column;
+    background-color: #ffffff13;
 }
 
 .loc {
     display: flex;
+    justify-content: space-between;
 }
 
+iframe {
+    align-self: center;
+    width: 90%;
+    margin: 1rem;
+    border-radius: 1.25rem;
+}
 .info {
     text-align: center;
     font-size: 24px;
     background-color: #ffffff13;
 }
 
-
-.contact {
-    text-align: center;    
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
