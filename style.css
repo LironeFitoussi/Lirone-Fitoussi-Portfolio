@@ -11,9 +11,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
     align-items: center;
-    border-radius: 1.25rem;
     margin: 10px;
 }
 
@@ -73,10 +71,14 @@ p {
 .right {
     display: grid;
     height: 100%;
-    grid-template-rows: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 4fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
 
+a.navbar {
+    background-color: transparent;
+    color: white;
+}
 .top-r {
     display: flex;
     justify-content: space-between;
@@ -106,9 +108,8 @@ img{
     background-color: #ffffff13; 
 }
 
-.name, .loc> h3 {
+h3 {
     font-size: 0.6rem;
-    font-weight: 700;
 }
 
 .location {
@@ -119,12 +120,14 @@ img{
 
 .loc {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 iframe {
     align-self: center;
     width: 90%;
+    height: 90%;
     margin: 1rem;
     border-radius: 1.25rem;
 }
@@ -136,6 +139,58 @@ iframe {
 
 .social {
     display: flex;
-    justify-content: space-between;
-    align-items: center
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff13;
+    padding: 0;
+}
+
+a {
+    margin: 1rem;
+    color: black;
+    background-color: azure;
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+a.linkedin:hover {
+    color: white;
+    background-color: #0077b5;
+}
+
+a.mail:hover {
+    color: white;
+    background-color: #f0da16;
+}
+
+a.github:hover {
+    color: white;
+    background-color: #5400b5;
+}
+
+a.phone:hover {
+    color: white;
+    background-color: #458f1a;
+}
+
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    height: fit-content;
+}
+
+@media screen and (max-width: 1440px) {
+    h1 {
+        font-size: 5rem;
+        line-height: normal;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }
