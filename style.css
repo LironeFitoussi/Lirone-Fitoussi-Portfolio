@@ -17,7 +17,7 @@ header {
 
 div {
     border-radius: 1rem;
-    margin: 0.4rem 0.2rem;
+    margin: 0.5rem 0.5rem;
 }
 
 h1, h2, h3, p {
@@ -183,8 +183,10 @@ a.phone:hover {
     grid-template-columns: 1.25fr 1fr;
 }
 
-.portfolio > div {
-
+.portfolio, .about {
+    background-color: #ffffff13;
+    height: 100%;
+    padding-bottom: 0.5rem;
 }
 
 .see-all {
@@ -229,8 +231,8 @@ a.prjct-lnk {
 }
 
 footer {
-    background-color: #ffffff;
-    color: #000000;
+    margin-top: 50px;
+    color: #ffffff;
     height: fit-content;
 }
 
@@ -263,5 +265,4 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
-}
 }
