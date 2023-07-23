@@ -204,8 +204,7 @@ a.see-all {
 div.all-projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: 60px;
+    grid-template-rows: 1fr 4fr;
 }
 
 h1.m {
@@ -252,9 +251,17 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
-    header {
-        grid-template-columns: 1fr;
+    body {
+        display: flex;
+        flex-direction: column;
     }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
 
     h1 {
         font-size: 2rem;
@@ -262,7 +269,31 @@ footer {
     }
 
     .right {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #middle {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1.see-all {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    h1.m {
+        font-size: 1rem;
+
+    }
+
+    div.prjct-lnk {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a.prjct-lnk {
+        width: 100%;
     }
 }
