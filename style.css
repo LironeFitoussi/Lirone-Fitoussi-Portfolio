@@ -204,7 +204,7 @@ a.see-all {
 div.all-projects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 2.75fr;
 }
 
 h1.m {
@@ -220,6 +220,7 @@ div.all-projects > div {
 
 a.prjct-lnk {
     border-radius: 1rem;
+    width: 100%;
 }
 
 .fr-gv {
