@@ -228,7 +228,11 @@ a.prjct-lnk {
 }
 
 a.fr-gv{
-    background-image: url(./Images/france\ project\ 1.png);
+    background-image: url(./Images/france-project-1.png);
+}
+
+a.air-wiki{
+    background-image: url(./Images/air-wiki-project.png);
 }
 
 footer {
