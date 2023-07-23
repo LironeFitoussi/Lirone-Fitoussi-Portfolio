@@ -225,9 +225,9 @@ a.prjct-lnk {
 
 .fr-gv {
     background-image: url(./Images/france\ project\ 1.png);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    height: 10rem;
+    background-size: cover;
+    height: 80%;
+    background-position: center;
 }
 
 footer {
