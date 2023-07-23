@@ -214,20 +214,21 @@ h1.m {
 div.all-projects > div {
     display: flex;
     align-items: center;
-    justify-content: space-between;    grid-column-start: 1;
+    justify-content: space-between;
+    grid-column-start: 1;
     grid-column-end: 4;
 }
 
 a.prjct-lnk {
     border-radius: 1rem;
     width: 100%;
-}
-
-.fr-gv {
-    background-image: url(./Images/france\ project\ 1.png);
     background-size: cover;
     height: 80%;
     background-position: center;
+}
+
+a.fr-gv{
+    background-image: url(./Images/france\ project\ 1.png);
 }
 
 footer {
@@ -289,12 +290,18 @@ footer {
 
     }
 
+    div.all-projects {
+        display: flex;
+    flex-direction: column;
+    }
+    
     div.prjct-lnk {
         display: flex;
         flex-direction: column;
     }
 
     a.prjct-lnk {
-        width: 100%;
+        width: 80%;
+        height: 5rem;
     }
 }
