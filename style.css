@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
 body {
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(255, 255, 255);
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: white;
@@ -23,12 +23,16 @@ header {
     margin: 10px;
     height: fit-content;
     gap: 2vh;
+    background-color: #58c216;
+    border-radius: 1rem;
+    padding: 3%;
 }
 
 .ct-element {
     height: -webkit-fill-available;
     padding: 3%;
     border-radius: 1rem;
+    background-color: #ffffff20;
 }
 
 /*left side of header*/
@@ -43,7 +47,6 @@ header {
 .phrase {
     grid-column-start: 1;
     grid-column-end: 4;
-    background-color: #ffffff13;
     font-size: 6vw;
 }
 
@@ -87,7 +90,6 @@ a.navbar {
 .top-r {
     display: flex;
     justify-content: space-between;
-    background-color: #ffffff13;
     align-items: center;    
     grid-row-start: 1;
     grid-row-end: 2;
@@ -95,8 +97,6 @@ a.navbar {
     grid-column-end: 3;
     height: 30%;
 }
-
-
 
 .profile-pic {
     grid-row-start: 2;
@@ -110,14 +110,12 @@ a.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff13; 
     height: auto;
 }
 
 .location {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff13;
     height: auto;
 }
 
@@ -136,17 +134,10 @@ iframe {
     border-radius: 1.25rem;
 }
 
-.info {
-    text-align: center;
-    font-size: 24px;
-    background-color: #ffffff13;
-}
-
 .social {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff13;
     padding: 0;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -186,6 +177,9 @@ main {
     grid-template-columns: 1.25fr 1fr;
     gap: 2vh;
     margin: 10px;
+    background-color: #58c216;
+    border-radius: 1rem;
+    padding: 3%;
 }
 
 .all-projects-header > h1 {
