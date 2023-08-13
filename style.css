@@ -244,8 +244,11 @@ a.air-wiki{
 
 footer {
     margin-top: 50px;
-    color: #ffffff;
     height: fit-content;
+}
+
+footer > p {
+    color: #000;
 }
 
 @media screen and (max-width: 425px) {
