@@ -12,6 +12,10 @@ p {
     color: rgba(255, 255, 255, 0.74);
 }
 
+h3, p {
+    font-size: 1.5vw;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -89,7 +93,10 @@ a.navbar {
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 3;
+    height: 30%;
 }
+
+
 
 .profile-pic {
     grid-row-start: 2;
@@ -181,6 +188,14 @@ main {
     margin: 10px;
 }
 
+.all-projects-header > h1 {
+    font-size: 4vw;
+}
+
+.all-projects-header > a {
+    font-size: 3vw;
+}
+
 .portfolio, .about {
     background-color: #ffffff13;
     height: 100%;
@@ -237,16 +252,6 @@ footer {
     margin-top: 50px;
     color: #ffffff;
     height: fit-content;
-}
-
-@media screen and (max-width: 1920px) {
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
 }
 
 @media screen and (max-width: 425px) {
